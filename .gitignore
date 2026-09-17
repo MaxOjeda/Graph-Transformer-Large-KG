@@ -1,0 +1,44 @@
+# --- datos y artefactos pesados: NO van al repo ---
+data/
+experiments/
+experiments_astarnet/
+experiments_nbfnet_pyg/
+experiments_nbfnet_orig/
+logs/
+*.pt
+*.ckpt
+*.pt
+*.pkl
+*.pth
+__pycache__/
+*.pyc
+
+# --- repos de terceros, clonados aparte (ver README) ---
+AStarNet/
+NBFNet/
+NBFNet-PyG/
+nbfnet_orig_cfg/
+nbfnet_pyg_cfg/
+ULTRA/
+Exphormer/
+astarnet_cfg/
+
+# --- scratch ---
+*.done
+nohup.out
+
+.credentials.json
+# --- credenciales y config local: NUNCA al repo ---
+.credentials.json
+.claude/
+*.bak
+
+# --- scripts de LANZAMIENTO de experimentos: no se versionan ---
+*.sh
+# ...salvo los de ENTORNO, que son la receta para reproducir los baselines
+!env.sh
+!env_astarnet.sh
+!setup_astarnet_env.sh
+!setup_astarnet_pip.sh
+!setup_astarnet_pip2.sh
+!patch_torchdrug_aten.sh

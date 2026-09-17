@@ -1,0 +1,16 @@
+# cola de la semana 2 (OBJETIVOS_Y_PLAN_WWW.md §4), en orden de prioridad
+sbatch_smoke_semana2.sh
+sbatch_wn_global_s42.sh
+sbatch_fb_global_s42.sh
+sbatch_ppr_diag_wn.sh
+sbatch_wn_fallback_s42.sh
+sbatch_fb_relfront_s42.sh
+sbatch_ppr_diag_fb.sh
+sbatch_wn_global_s43.sh
+sbatch_wn_global_s44.sh
+sbatch_fb_global_s43.sh
+sbatch_fb_global_s44.sh
+sbatch_yago_global_s42.sh
+sbatch_wn_ppr_s42.sh
+sbatch_wn_ppr_s43.sh
+sbatch_wn_ppr_s44.sh
